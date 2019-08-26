@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="repository.map" name="MP_Test_Repo" version="0.0.1" provider-name="Michael Page">
+    <extension point="xbmc.addon.repository" name="MP_Test_Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Wmikep21212/MP_Test_Repo/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Wmikep21212/MP_Test_Repo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Wmikep21212/MP_Test_Repo/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>MP_Test_Repo</summary>
+        <description>this repo is for my use only</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+</addons>
